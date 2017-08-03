@@ -15,7 +15,10 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-  
+
+app.get('/ui/BIG_google_wave_logo.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'BIG_google_wave_logo.jpg'));
+    
 
 });
 
