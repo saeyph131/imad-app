@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 
-var articleone = {
+var articleOne = {
     title: 'Article-one | Saifullah',
     heading: 'Article-one',
     date: 'Sep 5,2017',
@@ -20,7 +20,7 @@ var articleone = {
 };
 
 
-function createtemplate (data) {
+function createTemplate (data) {
 
 var date=data.date;
 var title=data.title;
@@ -78,7 +78,7 @@ var htmlcontent= `
 
  
    `;
-   return htmltemplate
+   return htmlTemplate
 }
 
 app.get('/', function (req, res) {
