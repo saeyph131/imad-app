@@ -19,7 +19,7 @@ var articles={
           `
     },
      'article-two': {
-          title: 'Article-one | Saifullah',
+          title: 'Article-two | Saifullah',
     heading: 'Article-two',
     date: 'Aug 1,2018',
     content: ` <p>  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content</p>
@@ -27,8 +27,8 @@ var articles={
    
     <p>  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content</p>`
     },
-     'article-three' : {  title: 'Article-one | Saifullah',
-    heading: 'Article-one',
+     'article-three' : {  title: 'Article-three | Saifullah',
+    heading: 'Article-three',
     date: 'Sep 5,2017',
     content: ` <p>  Thios is the article 3</p>`}
     };
