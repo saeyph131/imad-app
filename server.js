@@ -5,6 +5,22 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+
+var content = {
+    title: 'Article-one | Saifullah',
+    heading: 'Article-one',
+    date: 'Sep 5,2017',
+    content: ` <p>  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content</p>
+    
+    <p>  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content</p>
+    
+    <p>  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content  Thios is the actual content</p>
+          `
+};
+
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
