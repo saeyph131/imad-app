@@ -26,7 +26,7 @@ var date=data.date;
 var title=data.title;
 var heading=data.heading;
 var content =data.content;
-var htmlcontent= `
+var htmlTemplate= `
   <html>
     <head>   
     
