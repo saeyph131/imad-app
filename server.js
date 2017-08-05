@@ -20,7 +20,7 @@ var articleone = {
 };
 
 
-function createtemplete (data) {
+function createtemplate (data) {
 
 var date=data.date;
 var title=data.title;
